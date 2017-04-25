@@ -11,7 +11,7 @@ import java.util.Map;
  *
  * Created by doodle on 17-4-25.
  */
-public class DynamicDataSource extends AbstractRoutingDataSource {
+public abstract class DynamicDataSource extends AbstractRoutingDataSource {
 
     /**
      * 写数据源
