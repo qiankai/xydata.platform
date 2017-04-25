@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+cn.xydata.platform.common.web.config.UploadConfig,\
+cn.xydata.platform.common.web.config.WebConfig
