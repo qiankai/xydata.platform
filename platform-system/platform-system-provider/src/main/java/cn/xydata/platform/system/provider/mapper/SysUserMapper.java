@@ -2,12 +2,14 @@ package cn.xydata.platform.system.provider.mapper;
 
 import cn.xydata.platform.common.service.dao.CrudDao;
 import cn.xydata.platform.system.api.entity.SysUser;
+import org.apache.ibatis.annotations.Mapper;
 
 /**
  * 接口:用户DAO
  *
  * Created by kaiqian on 2017/4/26.
  */
+@Mapper
 public interface SysUserMapper extends CrudDao<SysUser> {
     /**
      * 根据登录名称查询用户

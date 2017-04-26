@@ -52,7 +52,7 @@
                 <dubbo.registry.protocol>zookeeper</dubbo.registry.protocol>
                 <dubbo.registry.address>127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183</dubbo.registry.address>
                 <dubbo.registry.client>curator</dubbo.registry.client>
-                <dubbo.registry.file>/data/zookeeper/platform-system-provider.cache</dubbo.registry.file>
+                <dubbo.registry.file>~/data/zookeeper/platform-system-provider.cache</dubbo.registry.file>
                 <dubbo.protocol.dubbo.port>20000</dubbo.protocol.dubbo.port>
                 <dubbo.application.logger>slf4j</dubbo.application.logger>
                 <dubbo.logback.level>error</dubbo.logback.level>
@@ -72,7 +72,7 @@
                 <dubbo.registry.protocol>zookeeper</dubbo.registry.protocol>
                 <dubbo.registry.address>127.0.0.1:2181,127.0.0.1:2182,127.0.0.1:2183</dubbo.registry.address>
                 <dubbo.registry.client>curator</dubbo.registry.client>
-                <dubbo.registry.file>/data/zookeeper/platform-system-provider.cache</dubbo.registry.file>
+                <dubbo.registry.file>~/data/zookeeper/platform-system-provider.cache</dubbo.registry.file>
                 <dubbo.protocol.dubbo.port>20000</dubbo.protocol.dubbo.port>
                 <dubbo.application.logger>slf4j</dubbo.application.logger>
                 <dubbo.logback.level>error</dubbo.logback.level>

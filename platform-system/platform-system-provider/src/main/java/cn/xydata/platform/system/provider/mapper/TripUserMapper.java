@@ -2,6 +2,7 @@ package cn.xydata.platform.system.provider.mapper;
 
 import cn.xydata.platform.common.service.dao.CrudDao;
 import cn.xydata.platform.system.api.entity.TripUser;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
 /**
@@ -10,6 +11,7 @@ import org.apache.ibatis.annotations.Param;
  *
  * Created by kaiqian on 2017/4/26.
  */
+@Mapper
 public interface TripUserMapper extends CrudDao<TripUser> {
     /**
      * 根据手机号码查询用户

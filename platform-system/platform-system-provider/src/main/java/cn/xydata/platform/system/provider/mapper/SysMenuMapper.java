@@ -2,6 +2,7 @@ package cn.xydata.platform.system.provider.mapper;
 
 import cn.xydata.platform.common.service.dao.CrudDao;
 import cn.xydata.platform.system.api.entity.SysMenu;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
@@ -11,6 +12,7 @@ import java.util.List;
  *
  * Created by kaiqian on 2017/4/26.
  */
+@Mapper
 public interface SysMenuMapper extends CrudDao<SysMenu> {
     /**
      * 根据用户查询菜单

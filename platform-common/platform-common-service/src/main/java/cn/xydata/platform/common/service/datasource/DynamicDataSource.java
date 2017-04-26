@@ -2,8 +2,10 @@ package cn.xydata.platform.common.service.datasource;
 
 import org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource;
 
+import java.sql.SQLFeatureNotSupportedException;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.logging.Logger;
 
 /**
  *
@@ -11,7 +13,7 @@ import java.util.Map;
  *
  * Created by doodle on 17-4-25.
  */
-public abstract class DynamicDataSource extends AbstractRoutingDataSource {
+public class DynamicDataSource extends AbstractRoutingDataSource {
 
     /**
      * 写数据源
@@ -65,4 +67,5 @@ public abstract class DynamicDataSource extends AbstractRoutingDataSource {
     public void setReadDataSource(Object readDataSource) {
         this.readDataSource = readDataSource;
     }
+
 }

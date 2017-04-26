@@ -2,6 +2,7 @@ package cn.xydata.platform.system.provider.mapper;
 
 import cn.xydata.platform.common.service.dao.CrudDao;
 import cn.xydata.platform.system.api.entity.SysRole;
+import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
@@ -9,6 +10,7 @@ import java.util.List;
  * 接口:角色DAO
  * Created by kaiqian on 2017/4/26.
  */
+@Mapper
 public interface SysRoleMapper extends CrudDao<SysRole> {
     /**
      * 查询用户角色列表
