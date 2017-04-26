@@ -14,8 +14,8 @@ import java.util.Date;
 /**
  * Created by kaiqian on 2017/4/26.
  */
-@Configuration
-@RabbitListener(queues = "xydata.sample")
+//@Configuration
+//@RabbitListener(queues = "xydata.sample")
 public class SampleAmqpSimpleApplication {
 
 //    @Autowired

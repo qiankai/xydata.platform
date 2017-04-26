@@ -9,6 +9,7 @@
     <modules>
         <module>platform-common</module>
         <module>platform-system</module>
+        <module>platform-admin-web</module>
     </modules>
 	<packaging>pom</packaging>
 
